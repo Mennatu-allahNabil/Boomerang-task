@@ -901,14 +901,14 @@ align-items: center;
     opacity: 0;
     top: 0;
     width: 100%;
-    height: 96.5%;
+    height: 98.3%;
     border-radius: 2px;
     transition: all 0.4s ease-in-out;
 }
 
 .team-con {
     position: absolute;
-z-index: 10px;
+
     margin: 0;
     padding: 0;
     top: 0%;
@@ -956,17 +956,11 @@ z-index: 10px;
     font-weight: 500;
 }
 
-.team-member:hover .team-info
- {
+.team-member:hover .team-info,
+.team-member:hover .team-social {
     transform: translateY(3%);
     transition: all 0.5s ease-in-out;
     opacity: 100%;
-}
-
-.team-member:hover .team-social{
-    opacity: 80%;
-    transform: translateY(3%);
-    transition: all 0.5s ease-in-out;
 }
 
 .team-member:hover .teamimg {
