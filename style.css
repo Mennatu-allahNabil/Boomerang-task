@@ -813,14 +813,14 @@ align-items: center;
 /***********************************Section 5********************************************/
 
 
-
 .section5 {
     width: 100%;
     height: 100%;
     position: relative;
-  
+
     justify-content: center;
     align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 5%;
 }
 
@@ -862,7 +862,7 @@ align-items: center;
     flex-wrap: wrap;
   
     width: 60%;
- 
+
     justify-content: center;
   
     margin-top: 1%;
@@ -872,7 +872,7 @@ align-items: center;
     position: relative;
     width: 30%;
     height: 50%;
-  
+
     display: inline-block;
     margin: 10px;
     overflow: hidden;
@@ -899,21 +899,21 @@ align-items: center;
     position: absolute;
     background-color: rgb(37, 36, 36, 0.9);
     opacity: 0;
-    top: 0%;
+    top: 0;
     width: 100%;
-    height: 97.5%;
+    height: 98.4%;
     border-radius: 2px;
     transition: all 0.4s ease-in-out;
 }
 
 .team-con {
     position: absolute;
-
+   
     margin: 0;
     padding: 0;
     top: 0%;
     width: 100%;
-    height: 100%;
+    height: 97%;
     border-radius: 2px;
 
 
@@ -922,23 +922,22 @@ align-items: center;
 .team-social {
     top: -10%;
     margin-left: 75%;
-    transform: translateY(-20%);
+    transform: translateY(-15px);
     opacity: 0;
 }
 
 .team-social img {
     height: 15px;
     width: 15px;
-    padding: 13% 0;
+    padding: 3px 0;
 }
 
 .team-info {
     margin-top: 48%;
-    margin-left: 5%;
+    margin-left: 1%;
     align-items: center;
     justify-content: left;
-    transform: translateY(-25%);
-
+    transform: translateY(-15px);
     opacity: 0;
 }
 
@@ -958,19 +957,20 @@ align-items: center;
 
 .team-member:hover .team-info,
 .team-member:hover .team-social {
-    transform: translateY(3%);
+    transform: translateY(-1px);
     transition: all 0.5s ease-in-out;
     opacity: 100%;
 }
 
 .team-member:hover .teamimg {
-    transform: translateY(-2.5px);
+    transform: translateY(-1px);
 
+    
 
 }
 
 .team-member:hover .team-cover {
- 
+  
     opacity: 0.7;
 
 }
@@ -978,24 +978,21 @@ align-items: center;
 
 .team-btn {
     margin: auto;
-    width: 15%;
+    width: 8%;
     justify-content: center;
     align-items: center;
-    
 }
 
 .about-us {
-    box-sizing: border-box;
-    margin-left: 20%;
     margin-top: 20%;
     justify-content: center;
     color: rgb(80, 92, 253);
     background-color: white;
     border-color: rgb(80, 92, 253);
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 50px;
-    font-size: 12px;
+    font-size: 8px;
     font-weight: 600;
 
     padding: 15px 26px;
@@ -1009,6 +1006,7 @@ align-items: center;
     background-color: rgb(80, 92, 253);
     cursor: pointer;
 }
+
 
 
 /***********************************section 6******************************************/
