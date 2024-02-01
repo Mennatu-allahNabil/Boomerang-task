@@ -971,7 +971,7 @@ z-index: 100px;
 opacity: 100%;
 }
 .team-member:hover .teamimg {
-    transform: translateY(-3px);
+    transform: translateY(-1px);
 
 
 }
