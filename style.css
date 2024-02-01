@@ -43,8 +43,9 @@ nav ul {
 }
 nav ul li{
     text-transform: uppercase;
-    font-size: 0.8em;
-    font-weight: 700;
+    font-size: 0.6em;
+    font-weight: 100;
+    letter-spacing: 1px;
 }
 nav ul li a{
     text-decoration: none;
@@ -84,7 +85,7 @@ nav ul li a:hover{
 
 .section-1 {
     width: 100%;
-    height: 100vh;
+    height: 95vh;
     position: relative;
 
 
