@@ -101,7 +101,7 @@ nav ul li a:hover  {
     display: flex;
     width: 6%;
     height: 100%;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     position: relative;
  
@@ -186,7 +186,7 @@ nav ul li a:hover  {
 
 .page-menus{
     width: 350px;
-    height: 300px;
+    height: 270px;
     position: absolute;
     top: 45px;
     
@@ -202,6 +202,25 @@ display: none;
     transition: all 0.5s ease-in;
 }
 
+
+.comp-menus{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 45px;
+    background-image: url("https://i.ibb.co/FscHN0j/menu-2.jpg");
+    background-repeat: no-repeat;
+  background-position: center;
+    background-size: cover;
+    object-fit: cover;
+display: none;
+   
+    flex-direction: row;
+
+    transition: all 0.5s ease-in;
+}
+
+
 .home-menu,.page-menu{
 
     display: flex;
@@ -211,25 +230,62 @@ display: none;
     align-items: stretch;
     text-align: left;
     overflow: hidden;
-    line-height: 28px;
-    margin-left: 30px;
+    line-height: 27px;
+    margin-left: 20px;
+    font-size: 9px;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.comp-menu{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    overflow: hidden;
+    margin-left: 12px;
+    justify-content: flex-start;
+    align-items: start;
 }
 
 .home-menu:last-child,.page-menu:last-child{
     margin-left: 52%;
 }
-
-.home-menu p,.page-menu p{
+.comp-menu:nth-child(2){
+    margin-left: 32.3%;
+}
+.comp-menu:last-child{
+    margin-left: 60%;
+ 
+}
+.home-menu p,.page-menu p,.comp-menu p{
 font-weight: 600;
+
+margin-top: 25px;
 }
 
-.home-menu a,.page-menu a{
+.home-menu a,.page-menu a,.comp-menu a span{
     color: #858181;
-    display: inline-block;   
+    display: inline;
+    
+}
+.comp-menu a{
+    align-items: left;
+    height: 3%;
+ margin: 10px 0; 
 }
 
 
-nav ul li:hover .page-menus,nav ul li:hover .home-menus{
+.comp-menu a img{
+    width:10px;
+    height: 10px;
+   transform: translateY(2px);
+    display: inline-block;
+}
+
+nav ul li:hover .page-menus,nav ul li:hover .home-menus,nav ul li:hover .comp-menus{
     display: inline-block;
 }
 
