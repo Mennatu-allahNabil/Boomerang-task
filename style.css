@@ -130,8 +130,8 @@ nav ul li a:hover  {
 }
 
 .menus img {
-    width: 90%;
-    height: 60%;
+    width: 80%;
+    height: 55%;
     transform: scaleX(-1);
     opacity: 1;
     transition: all 0.3s ease;
